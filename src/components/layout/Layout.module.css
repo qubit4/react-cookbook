@@ -1,0 +1,8 @@
+.main {
+    margin: 4rem auto;
+    max-width: 45rem;
+  }
+
+.nav {
+  z-index: -1;
+}
