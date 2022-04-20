@@ -1,0 +1,58 @@
+.addnew h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+  }
+.addnew input, textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+ 
+.addnew button {
+    background: #802BB1;
+    color: #fff;
+    border: 3px solid;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    position:fixed; right:160px; top:200px
+  }
+
+  /* with resize button moves down the page*/
+  @media screen and (max-width: 1300px) {
+  .addnew button {
+      position: static;
+    }}
+
+  .addnew button:hover, button:active {
+    background-color: white;
+    color: #802BB1;
+  }
+
+
+/* forcing inputs for ingredients to be on the same line*/ 
+.ingredients, .ingredients input {
+  display: flex;
+  flex-direction: row;
+}
+
+.ingredients2, .ingredients2 input {
+  display: flex;
+  flex-direction: row;
+}
+.ingredients3, .ingredients3 input {
+  display: flex;
+  flex-direction: row;
+}
+.ingredients4, .ingredients4 input {
+  display: flex;
+  flex-direction: row;
+}
