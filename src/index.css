@@ -1,0 +1,12 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  background-image: radial-gradient(#212121 20%, transparent 20%);  
+  background-color: #e53935;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+}
+
+
